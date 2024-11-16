@@ -4,6 +4,8 @@
 
 
 body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   margin: 0;
   font-family: "Host Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -147,7 +149,7 @@ a{
 
 
 .foot{
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   width: 100%;
   height: 5vw;
   display: flex;
@@ -157,8 +159,8 @@ a{
   -webkit-backdrop-filter: blur( 20px );
   border-radius: 1px;
   border: 0px solid rgba( 255, 255, 255, 0.18 );
-  position: absolute;
   font-size: 0.9vw;
+  position: absolute;
   bottom:0;
   text-align: start;
   padding:10px;
