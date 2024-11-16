@@ -202,6 +202,7 @@ a{
     ),
     linear-gradient(-150deg, var(--_l)) #55897c /* third color here */;
   background-size: calc(0.866 * var(--s)) var(--s);
+  margin-bottom: 20px;
 }
 
 .topgrid > div {
