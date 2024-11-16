@@ -21,7 +21,7 @@ body {
 .headd-login{
   display: grid;
   grid-template-areas:
-    'head ... ... ... ... ... ... link-1 link-2 ...';
+    'head ... ... ... ... ... link-1 link-2 ...';
   gap: 0px;
   padding: 0vw;
   vertical-align: middle;
